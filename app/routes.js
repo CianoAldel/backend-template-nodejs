@@ -1,9 +1,9 @@
 import { Router } from 'express';
 
 const routes = new Router();
-var initModels = require("../models/init-models");
-const sequelize = require('./config/database');
-var models = initModels(sequelize);
+// var initModels = require("../models/init-models");
+// const sequelize = require('./config/database');
+// var models = initModels(sequelize);
 
 
 // สร้าง routing โดยใช้ HTTP GET 
